@@ -10,6 +10,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +26,31 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* info is what contains one two three four and aligns it */
+.info { 
+  display:flex;
+  justify-content: center;
+  gap: 52px;
+  
+}
+
+/* these are the children of info holding the imgs and text */
+.one,
+.two,
+.three,
+.four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis:200px;
+
+}
+
+
+.text {
+
+  text-align: center;
+
 }
